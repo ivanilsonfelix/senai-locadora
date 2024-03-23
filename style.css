@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.menu__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+   
+}
+
+
+.logo{
+    height: 116px;
+    width: 146px;
+    background-image: url(./assets/images.png);
+    margin-left: 5px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+    
+    
+   
+    
+}
+.menu_flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    
+   
+}
+.menu_flex li{
+    
+    list-style-type: none;
+
+}
+.menu_flex li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.8s;
+}
